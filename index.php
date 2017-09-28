@@ -36,16 +36,16 @@ if (is_dir($DIR)) {
 //print_r($cpu);
 
 // families of machines
-$families = array( 4 => array('himec01', 'himec02'),
-                   3 => array('pinac21', 'pinac22', 'pinac23', 'pinac24', 'pinac25', 'pinac26', 'pinac27', 'pinac28', 'pinac29', 'pinac30'),
-                   2 => array('pinac31', 'pinac32', 'pinac33', 'pinac34', 'pinac35', 'pinac36', 'pinac37', 'pinac38', 'pinac39', 'pinac40'),
+$families = array( 2 => array('himec01', 'himec02'),
+                   4 => array('pinac21', 'pinac22', 'pinac23', 'pinac24', 'pinac25', 'pinac26', 'pinac27', 'pinac28', 'pinac29', 'pinac30'),
+                   3 => array('pinac31', 'pinac32', 'pinac33', 'pinac34', 'pinac35', 'pinac36', 'pinac37', 'pinac38', 'pinac39', 'pinac40'),
                    1 => array('himec03', 'himec04'),
                  );
 
 $families_notes = array( 0 => 'Various desktop PCs that are (seemingly) not used as such', // machines not in a family
-                         4 => '24-thread machines <abbr title="2-socket 12-core 24-thread">[2-12-24]</abbr>, 128 Gb memory',
-                         3 => '8-thread machines <abbr title="1-socket 4-core 8-thread">[1-4-8]</abbr>, 16 Gb memory',
-                         2 => '4-thread machines <abbr title="1-socket 4-core 4-thread">[1-4-4]</abbr>, 32 Gb memory',
+                         2 => '24-thread machines <abbr title="2-socket 12-core 24-thread">[2-12-24]</abbr>, 128 Gb memory',
+                         4 => '8-thread machines <abbr title="1-socket 4-core 8-thread">[1-4-8]</abbr>, 16 Gb memory',
+                         3 => '4-thread machines <abbr title="1-socket 4-core 4-thread">[1-4-4]</abbr>, 32 Gb memory',
                          1 => '32-thread machines <abbr title="2-socket 16-core 32-thread">[2-16-32]</abbr>, 128 Gb memory',
                        );
 
