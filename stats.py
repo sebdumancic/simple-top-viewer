@@ -10,7 +10,7 @@ import time
 
 
 NUMPROCS=9
-DIR="/cw/w3users2/tias/public_html/pinacs"
+DIR="/home/seba/public_html/public_html/pinacs"
 EXT="dat"
 
 ########
