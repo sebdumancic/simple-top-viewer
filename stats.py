@@ -10,7 +10,7 @@ import time
 import csv
 
 NUMPROCS=9
-DIR="."
+DIR="/home/seba/public_html/public_html/pinacs"
 EXT="dat"
 
 ########
