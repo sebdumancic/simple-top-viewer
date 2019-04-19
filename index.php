@@ -45,7 +45,7 @@ if (is_dir($DIR)) {
 
 // families of machines
 $families = array( 2 => array('himec01', 'himec02'),
-                   4 => array('pinac21', 'pinac22', 'pinac23', 'pinac24', 'pinac25', 'pinac26', 'pinac27', 'pinac28', 'pinac29', 'pinac30'),
+                   4 => array('pinac21', 'pinac22', 'pinac23', 'pinac24', 'pinac25', 'pinac26', 'pinac27', 'pinac28', 'pinac29', 'pinac30', 'pinac-a', 'pinac-b', 'pinac-c', 'pinac-d'),
                    3 => array('pinac31', 'pinac32', 'pinac33', 'pinac34', 'pinac35', 'pinac36', 'pinac37', 'pinac38', 'pinac39', 'pinac40'),
                    1 => array('himec03', 'himec04'),
                    5 => array('cudos01')
